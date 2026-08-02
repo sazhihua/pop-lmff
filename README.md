@@ -1,6 +1,6 @@
 # POP-LMFF: A Portable High-Performance Layered Materials Force Field
 
-POP-LMFF is a high-performance implementation of the Layered Materials Force Field (LMFF) in LAMMPS. It provides portable SIMD acceleration for multi-core processors, including x86 processors with AVX-512 and ARM processors with SVE/SVE2.
+POP-LMFF is a high-performance implementation of the Layered Materials Force Field (LMFF) in LAMMPS. It provides portable SIMD acceleration for multi-core processors, including x86 processors with AVX-512 and ARM processors with SVE.
 
 Supported execution modes:
 
@@ -10,7 +10,7 @@ Supported execution modes:
 Supported architectures:
 
 - x86 CPUs with AVX-512
-- ARM CPUs with SVE/SVE2 512-bit vectors
+- ARM CPUs with SVE 512-bit vectors
 
 
 ## Required LAMMPS Packages
@@ -33,9 +33,9 @@ The following LAMMPS packages are required:
 - Intel MKL
 
 
-### ARM SVE/SVE2 Platforms
+### ARM SVE Platforms
 
-- GCC or Clang compiler supporting SVE/SVE2
+- GCC or Clang compiler supporting SVE
 - ARMv9 architecture with 512-bit SVE vectors
 
 
