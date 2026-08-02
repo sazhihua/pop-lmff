@@ -10,6 +10,9 @@ processors      * * 1     # domain decomposition over x and y
 # interactions can be specified separately
 
 read_data       Bi_gr_AB_stack_2L_noH.data
+variable        x index 1
+variable        y index 1
+replicate       ${x} ${y} 1
 mass            1 12.0107   # carbon mass (g/mole) | membrane
 mass            2 12.0107   # carbon mass (g/mole) | adsorbate
 # Separate atom groups
