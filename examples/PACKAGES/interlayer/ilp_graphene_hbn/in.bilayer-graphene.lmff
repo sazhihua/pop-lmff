@@ -35,7 +35,7 @@ velocity	all create 300.0 12345
 compute   	0 all pair rebo
 compute  	1 all pair LMFF
 variable  	REBO  equal c_0     # REBO energy
-variable  	ILP   equal c_1[3]  # total interlayer energy
+variable  	ILP   equal c_1[3]  # ILP energy (vdw + rep)
 variable  	Evdw  equal c_1[1]  # attractive energy
 variable 	Erep  equal c_1[2]  # repulsive  energy
 
